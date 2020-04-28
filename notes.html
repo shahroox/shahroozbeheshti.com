@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<!-- THIS IS WHERE THE HEAD IS -->
+<head>
+<meta charset = "UTF-8">
+<title> Getting to know HTML </title>
+</head>
+
+<!-- THIS IS WHERE BODY STARTS -->
+<body>
+
+<h1> Getting to know HTML </h1>
+  <P> The <b>Black</b> Shah: <p/>
+  <p> Here we are going to take notes, and talk about some tags and styling stuff that helps us create web pages. Let's see what we got here. </P>
+  <p> For getting to know me(?), see <a href = "https://github.com/Shexire/sample/blob/master/sb_website/index.html">this</a>
+  <p> If you wanna see the actual shit, get your ass <a href = "https://learn.shayhowe.com/html-css/getting-to-know-html/">there</a>
+
+<ul>
+  <li>Orange</li>
+  <li>Green</li>
+  <li>Blue</li>
+</ul>
+
+<ol reversed start="3">
+  <li>Head north on N Halsted St</li>
+  <li value="2">Turn right on W Diversey Pkwy</li>
+  <li>Turn left on N Orchard St</li>
+</ol>
+
+<dl>
+  <dt>study</dt>
+  <dd>The devotion of time and attention to acquiring knowledge on an academic subject, especially by means of books</dd>
+  <dt>design</dt>
+  <dd>A plan or drawing produced to show the look and function or workings of a building, garment, or other object before it is built or made</dd>
+  <dd>Purpose, planning, or intention that exists or is thought to exist behind an action, fact, or material object</dd>
+  <dt>business</dt>
+  <dt>work</dt>
+  <dd>A person's regular occupation, profession, or trade</dd>
+</dl>
+
+<ol>
+  <li>Walk the dog</li>
+  <li>Fold laundry</li>
+  <li>
+    Go to the grocery and buy:
+    <ul>
+      <li>Milk</li>
+      <li>Bread</li>
+      <li>Cheese</li>
+    </ul>
+  </li>
+  <li>Mow the lawn</li>
+  <li>Make dinner</li>
+</ol>
+
+
+<body id="top">
+<header>
+  <h3> Well, here's a bunch of bulshit to get started with. lol </h3>
+  <h5> So what exactly are semantics? <h5>
+</header>
+
+<div class = "social">
+  <p> So what exactly are semantics? Semantics within HTML is the practice of giving content on the page meaning and structure by using the proper element. Semantic code describes the value of content on a page, regardless of the style or appearance of that content. There are several benefits to using semantic elements, including enabling computers, screen readers, search engines, and other devices to adequately read and understand the content on a web page. Additionally, semantic HTML is easier to manage and work with, as it shows clearly what each piece of content is about. </p>
+  <p> One feature available with hyperlinks is the ability to determine where a link opens when clicked. Typically, links open in the same window from which they are clicked; however, links may also be opened in new windows. To trigger the action of opening a link in a new window, use the target attribute with a value of _blank. The target attribute determines exactly where the link will be displayed, and the _blank value specifies a new window. </p>
+  <p> Periodically we’ll see hyperlinks that link to part of the same page the link appears on. A common example of these same-page links are “Back to top” links that return a user to the top of a page. We can create an on-page link by first setting an id attribute on the element we wish to link to, then using the value of that id attribute within an anchor element’s href attribute. Using the “Back to top” link as an example, we can place an id attribute value of top on the <body> element. Now we can create an anchor element with an href attribute value of #top, pound sign and all, to link to the beginning of the <body> element. </p>
+  <p> Occasionally we may want to create a hyperlink to our email address—for example, hyperlink text that says “Email Me,” which when clicked opens a user’s default email client and pre-populates part of an email. At a minimum the email address to which the email is being sent is populated; other information such as a subject line and body text may also be included. </p>
+  <p> To create an email link, the href attribute value needs to start with mailto: followed by the email address to which the email should be sent. To create an email link to shay@awesome.com, for example, the href attribute value would be mailto:shay@awesome.com. </p>
+  <p> Additionally, subject, body text, and other information for the email may be populated. To add a subject line, we’ll include the subject= parameter after the email address. The first parameter following the email address must begin with a question mark, ?, to bind it to the hyperlink path. Multiple words within a subject line require that spaces be encoded using %20. </p>
+  <p> Adding body text works in the same way as adding the subject, this time using the body= parameter in the href attribute value. Because we are binding one parameter to another we need to use the ampersand, &, to separate the two. As with the subject, spaces must be encoded using %20, and line breaks must be encoded using %0A. </P>
+  <p> Altogether, a link to shay@awesome.com with the subject of “Reaching Out” and body text of “How are you” would require an href attribute value of mailto:shay@awesome.com?subject=Reaching%20Out&body=How%20are%20you. </p>
+  <p> <strong>Additionally</strong>, I have a profile on ... </p>
+</div>
+
+<!-- SOME NOTES -->
+<p> Soon we'll be <span calss"tooltip">writing HTML</span> with the best of them. </p>
+<p> Here we <em>go</em> baby!!!</p>
+<p> Here we <i>go</i> baby!!!</p>
+
+<p> <a href="#top">Back to top</a> </p>
+
+<!-- END OF BODY -->
+</body>
+
+<!-- END OF HTML -->
+</html>
