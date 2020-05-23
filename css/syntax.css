@@ -1,0 +1,33 @@
+h2{
+  background: #B3B3B3;
+  text-align: center;
+  font-size: 150%;
+  font-variant: small-caps;
+  font-family: Lato, "Black", serif;
+}
+figure{
+  background: #666666;
+  text-align: center;
+  font-family: Lato, "Black", serif;
+}
+h5{
+  color: #FFFFFF;
+}
+/* nav{
+  font-variant: small-caps;
+  font-size: 150%;
+  font-family: Lato, "Black", serif;
+}
+h2{
+  color: #666666;
+  background: #00B7EA;
+} */
+details{
+  font-style: italic;
+}
+/* summary{
+  font-style: normal;
+} */
+/* figure{
+  background: #666666;
+} */
