@@ -1,0 +1,47 @@
+h2{
+  background: #ffffff;
+  text-align: center;
+  font-size: 200%;
+  font-variant: small-caps;
+  font-family: Lato, "Black", serif;
+}
+figure{
+  background: #ffffff;
+  text-align: center;
+  font-family: Lato, "Black", serif;
+}
+h5{
+  color: #FFFFFF;
+  text-align: center;
+}
+nav{
+  font-variant: small-caps;
+  text-align: center;
+  font-size: 150%;
+  font-family: Lato, "Black", serif;
+}
+p{
+  text-align: center;
+}
+details{
+  font-style: italic;
+  text-align: center;
+}
+h3{
+  font-variant: small-caps;
+  text-align: center;
+  font-size: 150%;
+  font-family: Lato, "Black", serif;
+}
+h3{
+  font-variant: small-caps;
+  text-align: center;
+  font-size: 150%;
+  font-family: Lato, "Black", serif;
+}
+/* summary{
+  font-style: normal;
+} */
+/* figure{
+  background: #666666;
+} */
