@@ -34,15 +34,21 @@ h3{
   font-size: 150%;
   font-family: Lato, "Black", serif;
 }
-h3{
+h4{
+  font-variant: small-caps;
+  text-align: center;
+  font-size: 100%;
+  font-family: Lato, "Black", serif;
+}
+div{
   font-variant: small-caps;
   text-align: center;
   font-size: 150%;
   font-family: Lato, "Black", serif;
 }
-/* summary{
-  font-style: normal;
-} */
-/* figure{
-  background: #666666;
-} */
+p{
+  font-variant: small-caps;
+  text-align: center;
+  font-size: 100%;
+  font-family: Lato, "Black", serif;
+}
