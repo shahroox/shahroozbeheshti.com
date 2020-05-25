@@ -1,7 +1,9 @@
-
+body{
+  background-color: black;
+}
 h3{
-  background: #58c5f0;
-  color: #ffffff;
+  /* background: #58c5f0; */
+  color: #39b6ae;
   text-align: center;
   font-size: 200%;
   font-variant: small-caps;
@@ -11,14 +13,16 @@ h3{
   margin-bottom: 50px;
 }
 nav{
+  color: white;
   margin-left: 100px;
   margin-right: 100px;
   text-align: justify;
   font-size: 100%;
   font-family: Lato, "regular", serif;
+  opacity: 100%;
 }
 h5{
-  background: #ffffff;
+  /* background: #ffffff; */
   text-align: center;
   font-size: 150%;
   font-variant: small-caps;
