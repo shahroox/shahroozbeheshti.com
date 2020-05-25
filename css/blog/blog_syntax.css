@@ -1,20 +1,18 @@
-body {
-     margin: 0;
-   }
+
 h3{
   background: #58c5f0;
   color: #ffffff;
   text-align: center;
-  font-size: 150%;
+  font-size: 200%;
   font-variant: small-caps;
   font-family: Lato, "Black", serif;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-bottom: 5%;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
 }
 nav{
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 100px;
+  margin-right: 100px;
   text-align: justify;
   font-size: 100%;
   font-family: Lato, "regular", serif;
@@ -27,8 +25,8 @@ h5{
   font-family: Lato, "Black", serif;
 }
 figure{
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 50px;
+  margin-bottom: 50px;
   font-variant: small-caps;
   font-size: 100%;
   text-align: center;
