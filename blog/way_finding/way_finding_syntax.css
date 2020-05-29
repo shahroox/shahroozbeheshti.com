@@ -1,0 +1,36 @@
+body{
+  background-color: black;
+}
+h3{
+  color: #39b6ae;
+  text-align: center;
+  font-size: 200%;
+  font-variant: small-caps;
+  font-family: Lato, "Black", serif;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+nav{
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: justify;
+  font-size: 16px;
+  font-family: Lato, "regular", serif;
+  opacity: 100%;
+}
+h5{
+  /* background: #ffffff; */
+  text-align: center;
+  font-size: 150%;
+  font-variant: small-caps;
+  font-family: Lato, "Black", serif;
+}
+figure{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-variant: small-caps;
+  font-size: 100%;
+  text-align: center;
+}

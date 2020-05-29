@@ -13,3 +13,9 @@ h5{
   font-variant: small-caps;
   font-family: Lato, "Black", serif;
 }
+p{text-align: center;
+  font-size: 125%;
+  font-variant: small-caps;
+  font-family: Lato, "Black", serif;
+  margin-bottom: 10px;
+}
