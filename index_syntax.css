@@ -21,6 +21,7 @@ nav{
   text-align: center;
   font-size: 150%;
   font-family: Lato, "Black", serif;
+  /* display: inline-block; */
 }
 p{
   text-align: center;
@@ -54,4 +55,32 @@ p{
   text-align: center;
   font-size: 100%;
   font-family: Lato, "Black", serif;
+}
+a{
+  display: inline-block;
+  font-weight: bold;
+  color: #FFFFFF;
+  /* background-color: #0006CC; */
+  width: 20%;
+  text-align: center;
+  /* padding: 4px; */
+  text-decoration: none;
+}
+a:link{
+
+}
+a:visited{
+  
+}
+a:hover{
+  /* background: #B3B3B3; */
+  color: #0006CC;
+}
+a:focus{
+  /* background: #B3B3B3; */
+  color: #0006CC;
+}
+a:active{
+  /* background: #B3B3B3; */
+  color: #0006CC;
 }

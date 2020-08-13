@@ -6,6 +6,9 @@ nav{
   text-align: center;
   font-size: 150%;
   font-family: Lato, "Black", serif;
+  /* display: inline-block; */
+  /* border: 1px solid black; */
+  /* margin: auto; */
 }
 h5{
   text-align: center;
@@ -18,4 +21,9 @@ p{text-align: center;
   font-variant: small-caps;
   font-family: Lato, "Black", serif;
   margin-bottom: 10px;
+  /* border-width: medium; */
+  /* border-color: black; */
+  /* margin: auto; */
+  /* padding: inherit; */
+  /* border: 1px solid black; */
 }
