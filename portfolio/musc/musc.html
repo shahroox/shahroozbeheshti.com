@@ -1,57 +1,96 @@
 <!DOCTYPE html>
-<html lang = "en">
-
-<!-- THIS IS WHERE THE HEAD IS -->
+<html>
 <head>
-    <meta charset = "UTF-8">
-    <title> PORTFOLIO </title>
-    <link rel="icon" type="image/png" href="img/icon.png"/>
-    <link rel="stylesheet" type="text/css" href="musc_syntax.css"/>
-    <style> body{
-      background-color: white;
-    }
-    </style>
+    <meta charset = "utf-8"/>
+    <title>MUSC | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,400;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../images/logos/logo.png"/>
+    <link rel="stylesheet" href="../../styles.css"/>
 </head>
-
-<!-- THIS IS WHERE BODY STARTS -->
 <body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="../../index.html">Home</a>
+                </div>
 
-  <h3> musc ambulatory surgery center and medical office building </h3>
-  <nav>
-    <figure>
-        <img src = "img/page_1.jpg" width = "100%" alt = "page 1">
-        <figcaption> page 1 </figcaption>
-    </figure>
-    <figure>
-        <img src = "img/page_2.jpg" width = "100%" alt = "page 2">
-        <figcaption> page 2 </figcaption>
-    </figure>
-    <figure>
-        <img src = "img/page_3.jpg" width = "100%" alt = "page 3">
-        <figcaption> page 3 </figcaption>
-    </figure>
-    <figure>
-        <img src = "img/page_4.jpg" width = "100%" alt = "page 4">
-        <figcaption> page 4 </figcaption>
-    </figure>
-    <figure>
-        <img src = "img/page_5.jpg" width = "100%" alt = "page 5">
-        <figcaption> page 5 </figcaption>
-    </figure>
-    <figure>
-        <img src = "img/page_6.jpg" width = "100%" alt = "page 6">
-        <figcaption> page 6 </figcaption>
-    </figure>
-    <figure>
-        <img src = "img/page_7.jpg" width = "100%" alt = "page 7">
-        <figcaption> page 7 </figcaption>
-    </figure>
-</nav>
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="../portfolio.html">Portfolio</a>
+                </div>
 
-<h5><a href = "../portfolio.html"> back to portfolio </a></h5>
+                <div class="nav-link-wrapper">
+                    <a href="../../graphics/graphics.html">Graphics</a>
+                </div>
 
-<!-- END OF BODY -->
+                <div class="nav-link-wrapper">
+                    <a href="../../photography/photography.html">Photography</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a href="../../blog/blog.html">Blog</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a href="../../experience/experience.html">Experience</a>
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div class="brand">
+                    <div>SHAHROOZ BEHESHTI</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wrapper-portfolio">
+            <h3> musc ambulatory surgery center and medical office building </h3>
+
+            <nav>
+                <figure>
+                    <img src = "img/page_1.jpg" width = "100%" alt = "page 1">
+                    <figcaption> page 1 </figcaption>
+                </figure>
+                <figure>
+                    <img src = "img/page_2.jpg" width = "100%" alt = "page 2">
+                    <figcaption> page 2 </figcaption>
+                </figure>
+                <figure>
+                    <img src = "img/page_3.jpg" width = "100%" alt = "page 3">
+                    <figcaption> page 3 </figcaption>
+                </figure>
+                <figure>
+                    <img src = "img/page_4.jpg" width = "100%" alt = "page 4">
+                    <figcaption> page 4 </figcaption>
+                </figure>
+                <figure>
+                    <img src = "img/page_5.jpg" width = "100%" alt = "page 5">
+                    <figcaption> page 5 </figcaption>
+                </figure>
+                <figure>
+                    <img src = "img/page_6.jpg" width = "100%" alt = "page 6">
+                    <figcaption> page 6 </figcaption>
+                </figure>
+                <figure>
+                    <img src = "img/page_7.jpg" width = "100%" alt = "page 7">
+                    <figcaption> page 7 </figcaption>
+                </figure>
+            </nav>
+
+        </div>
+    </div>
 </body>
+<script>
+    // const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
 
-<!-- END OF HTML -->
+    // portfolioItems.forEach(portfolioItem => {
+    //     portfolioItem.addEventListener('mouseover', () => {
+    //         portfolioItem.childNodes[1].classList.add('img-darken');
+    //     })
+
+    //     portfolioItem.addEventListener('mouseout', () => {
+    //         portfolioItem.childNodes[1].classList.remove('img-darken');
+    //     })
+    // })
+</script>
 </html>
