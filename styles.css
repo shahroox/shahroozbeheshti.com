@@ -153,6 +153,49 @@ h3{
 }
 
 
+/* Experience page */
+.resume-section-title {
+    font-size: 175%;
+    font-variant: small-caps;
+    font-family: Lato, "Black", serif;
+    color: lightseagreen;
+}
+.resume-content-title {
+    font-size: 100%;
+    font-family: Lato, "Black", serif;
+    color: black;
+}
+.resume-content-title a {
+    font-size: 100%;
+    font-family: Lato, "Black", serif;
+    color: black;
+}
+.resume-content-text {
+    font-size: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.resume-software-title {
+    font-size: 90%;
+    font-family: Lato, "Black", serif;
+    color:gray;
+}
+.resume-design-title {
+    font-size: 90%;
+    font-family: Lato, "Black", serif;
+    color:gray;
+}
+.resume-awards-title {
+    font-size: 90%;
+    font-family: Lato, "Black", serif;
+    color:gray;
+}
+.resume-awards-text {
+    font-size: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
 /* About page */
 .two-column-wrapper {
     display: grid;
