@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 /* GAP MAKER */
@@ -15,8 +18,8 @@
 }
 
 /* NAVBAR  --------------------------------- */
-#navbar {
-  /* background-color: #000000; */
+/* #navbar {
+  background-color: #000000;
   opacity: 100%;
   padding: 1% 4%;
 }
@@ -32,7 +35,7 @@
   margin: 0px;
 }
 #navbar .nav-link {
-  /* color: rgb(255, 255, 255); */
+  color: rgb(255, 255, 255);
   color: #ffffff;
   font-weight: 600;
 }
@@ -51,6 +54,32 @@
 }
 .navbar.scrolled {
   background: rgb(222, 192, 222);
+  transition: background 500ms;
+} */
+/* NAVBAR TEST */
+#mainNavbar {
+  font-size: 1.5rem;
+  /* font-weight: 500; */
+  padding-left: 2%;
+}
+#mainNavbar .nav-link {
+  color: rgb(59, 59, 59);
+  font-weight: 400;
+  font-size: 1rem;
+}
+#mainNavbar .nav-link:hover {
+  color: #ff4a4a;
+}
+#mainNavbar .navbar-brand {
+  /* color: #ff4a4a; */
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.navbar.scrolled {
+  /* background: rgb(255, 255, 255); */
+  background: #ff4a4a;
+  opacity: 50%;
   transition: background 500ms;
 }
 
@@ -166,9 +195,9 @@ section#sec h1 {
 
 /* PARALLAX MOUSE MOVE STUFF ___________________________*/
 #subjective {
-  background: url(../media/img/mouseMove/tools-bg.png) no-repeat;
+  /* background: url(../media/img/mouseMove/tools-bg.png) no-repeat; */
   background-size: cover;
-  height: 100vh;
+  height: 150vh;
   position: relative;
   width: 100%;
   /* height: 100%; */
@@ -176,6 +205,16 @@ section#sec h1 {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+}
+@media (max-width: 1200px) {
+  #subjective {
+    height: 50vh;
+  }
+}
+@media (max-width: 720px) {
+  #subjective {
+    height: 25vh;
+  }
 }
 
 #subjective img {
