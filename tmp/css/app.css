@@ -165,11 +165,15 @@
 .introduc {
   height: 100vh;
 }
-
 .introduc video {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+@media (max-width: 400px) {
+  .introduc {
+    display: none;
+  }
 }
 
 .introduc h2 {

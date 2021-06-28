@@ -272,6 +272,14 @@
   opacity: 1;
   transition: opacity 0.15s;
 }
+
+/* ADDED */
+@media (max-width: 400px) {
+  .fnc-slide__action-btn {
+    display: none;
+  }
+}
+
 .fnc-nav {
   z-index: 5;
   position: absolute;
