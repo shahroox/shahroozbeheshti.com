@@ -23,7 +23,7 @@ const controller = new ScrollMagic.Controller();
 //Scenes
 let scene = new ScrollMagic.Scene({
   // duration of the video X1000
-  duration: 8000,
+  duration: 16000,
   triggerElement: intro,
   triggerHook: 0
 })
@@ -40,7 +40,7 @@ let scene = new ScrollMagic.Scene({
 //Text Animation
 const textAnim1 = TweenMax.fromTo(text1, 3, { opacity: 1 }, { opacity: 0 });
 let scene1 = new ScrollMagic.Scene({
-  duration: 3000,
+  duration: 5000,
   triggerElement: intro,
   triggerHook: 0
 })
@@ -49,7 +49,7 @@ let scene1 = new ScrollMagic.Scene({
 
 const textAnim2 = TweenMax.fromTo(text2, 3, { opacity: 0 }, { opacity: 1 });
 let scene2 = new ScrollMagic.Scene({
-  duration: 3000,
+  duration: 10000,
   offset: 5000,
   triggerElement: intro,
   triggerHook: 0
